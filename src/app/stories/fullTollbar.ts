@@ -4,7 +4,7 @@ import {MatButtonModule, MatToolbarModule, MatIconModule, MatSidenavModule, MatL
 @Component({
   template: `
     <span [ngClass]="{ 'torq-dark-theme' : !lightTheme}">
-    <mat-toolbar color="surface" class="mat-elevation-z3">
+    <mat-toolbar color="surface" class="mat-elevation-z4">
     <div class="appInfo">
             <button mat-icon-button (click)="sidenav.toggle()">
                 <mat-icon>view_headline</mat-icon>
